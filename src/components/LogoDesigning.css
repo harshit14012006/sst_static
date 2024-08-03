@@ -1,0 +1,15 @@
+@keyframes marqueeAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Tailwind CSS Utility Classes */
+  .marquee-container {
+    display: flex;
+    animation: marqueeAnimation 30s linear infinite;
+  }
+  
