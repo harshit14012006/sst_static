@@ -7,19 +7,21 @@ function SingleWebsite() {
   return (
     <div>
       <NavbarMain />
-      <div className="container my-10 px-4 sm:px-6 lg:px-8">
-        <center>
+      <div className="container mx-auto py-10 px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-center mb-8">
           <img
             src={single}
-            alt=""
-            className="w-full sm:w-1/2 h-auto object-contain"
+            alt="Single Page Design"
+            className="w-full sm:w-3/4 lg:w-1/2 h-auto object-contain rounded-lg shadow-md"
           />
-        </center>
-        <h1 className="text-xl sm:text-2xl font-bold leading-tight my-4">
-          <b>SINGLE PAGE DESIGNING</b>
-        </h1>
-        <hr className="border-black" />
-        <p className="my-6 text-sm sm:text-base">
+        </div>
+        <div className="text-center mb-8">
+          <h1 className="text-2xl sm:text-3xl font-bold leading-tight mb-4">
+            SINGLE PAGE DESIGNING
+          </h1>
+          <hr className="border-black mx-auto w-1/2" />
+        </div>
+        <p className="text-base sm:text-lg leading-relaxed mb-8">
           Single page design is a web design approach where all the content is
           contained within a single, scrollable page. This design method is ideal
           for creating seamless, continuous user experiences, as it eliminates
@@ -32,21 +34,22 @@ function SingleWebsite() {
           attention and guides them through the content in a controlled and
           intuitive manner.
         </p>
-        <h1 className="text-xl sm:text-2xl font-bold leading-tight my-4">
-          <b>Advantage of Single Page Designing</b>
-        </h1>
-        <hr className="border-black" />
-        <div className="pl-4 sm:pl-7">
-          <ul className="list-disc text-sm sm:text-base">
-            <li>Enhanced User Experience</li>
-            <li>Faster Navigation</li>
-            <li>Improved Mobile Compatibility</li>
-            <li>Increased Conversion Rates</li>
-            <li>Maintain records.</li>
-            <li>Easier Maintenance</li>
-            <li>SEO Benefits</li>
-            <li>Simplified User Flow</li>
-            <li>Reduced Development Time</li>
+        <div className="text-center mb-8">
+          <h1 className="text-2xl sm:text-3xl font-bold leading-tight mb-4">
+            Advantage of Single Page Designing
+          </h1>
+          <hr className="border-black mx-auto w-1/2" />
+        </div>
+        <div className="pl-4 sm:pl-6 lg:pl-8 mb-8">
+          <ul className="list-disc text-base sm:text-lg leading-relaxed">
+            <li className="mb-2">Enhanced User Experience</li>
+            <li className="mb-2">Faster Navigation</li>
+            <li className="mb-2">Improved Mobile Compatibility</li>
+            <li className="mb-2">Increased Conversion Rates</li>
+            <li className="mb-2">Easier Maintenance</li>
+            <li className="mb-2">SEO Benefits</li>
+            <li className="mb-2">Simplified User Flow</li>
+            <li className="mb-2">Reduced Development Time</li>
           </ul>
         </div>
       </div>

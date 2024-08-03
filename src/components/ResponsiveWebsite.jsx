@@ -7,19 +7,21 @@ function ResponsiveWebsite() {
   return (
     <div>
       <NavbarMain />
-      <div className="container my-10 px-4 sm:px-6 lg:px-8">
-        <center>
+      <div className="container mx-auto py-10 px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-center mb-8">
           <img
             src={statics}
-            alt=""
-            className="h-1/2 w-full sm:w-1/2 object-contain"
+            alt="Responsive Website Design"
+            className="w-full sm:w-3/4 lg:w-1/2 h-auto object-contain rounded-lg shadow-md"
           />
-        </center>
-        <h1 className="text-xl sm:text-2xl font-bold leading-tight my-4">
-          <b>RESPONSIVE WEBSITE DESIGNING</b>
-        </h1>
-        <hr className="border-black" />
-        <p className="my-4 text-sm sm:text-base">
+        </div>
+        <div className="text-center mb-8">
+          <h1 className="text-2xl sm:text-3xl font-bold leading-tight mb-4">
+            RESPONSIVE WEBSITE DESIGNING
+          </h1>
+          <hr className="border-black mx-auto w-1/2" />
+        </div>
+        <p className="text-base sm:text-lg leading-relaxed mb-8">
           In today's digital age, the diversity of devices used to access the
           internet is vast. From desktops and laptops to tablets and smartphones,
           users expect a seamless and intuitive experience regardless of the
@@ -29,34 +31,38 @@ function ResponsiveWebsite() {
           user satisfaction but also boosts engagement and retention, making it
           an essential practice for modern web development.
         </p>
-        <h1 className="text-xl sm:text-2xl font-bold leading-tight my-4">
-          <b>Advantage of Responsive Website Designing</b>
-        </h1>
-        <hr className="border-black" />
-        <div className="pl-4 sm:pl-7">
-          <ul className="list-disc text-sm sm:text-base">
-            <li>Enhanced User Experience</li>
-            <li>Increased Mobile Traffic</li>
-            <li>Improved SEO Performance</li>
-            <li>Cost Efficiency</li>
-            <li>Easier Maintenance</li>
-            <li>Faster Page Load Times</li>
-            <li>Higher Conversion Rates</li>
-            <li>Future-Proofing</li>
-            <li>Better Analytics and Reporting</li>
-            <li>Improved Brand Perception</li>
+        <div className="text-center mb-8">
+          <h1 className="text-2xl sm:text-3xl font-bold leading-tight mb-4">
+            Advantage of Responsive Website Designing
+          </h1>
+          <hr className="border-black mx-auto w-1/2" />
+        </div>
+        <div className="pl-4 sm:pl-6 lg:pl-8 mb-8">
+          <ul className="list-disc text-base sm:text-lg leading-relaxed">
+            <li className="mb-2">Enhanced User Experience</li>
+            <li className="mb-2">Increased Mobile Traffic</li>
+            <li className="mb-2">Improved SEO Performance</li>
+            <li className="mb-2">Cost Efficiency</li>
+            <li className="mb-2">Easier Maintenance</li>
+            <li className="mb-2">Faster Page Load Times</li>
+            <li className="mb-2">Higher Conversion Rates</li>
+            <li className="mb-2">Future-Proofing</li>
+            <li className="mb-2">Better Analytics and Reporting</li>
+            <li className="mb-2">Improved Brand Perception</li>
           </ul>
         </div>
-        <p className="my-4 text-sm sm:text-base">
-          We are developing simple, innovative and informative website with an
-          attractive look and feel or both, in most affordable and cheapest
+        <p className="text-base sm:text-lg leading-relaxed mb-8">
+          We are developing simple, innovative and informative websites with an
+          attractive look and feel, in the most affordable and competitive
           prices.
         </p>
-        <h1 className="text-xl sm:text-2xl font-bold leading-tight my-4">
-          <b>The Role of User Experience (UX) in Responsive Web Design</b>
-        </h1>
-        <hr className="border-black" />
-        <p className="my-4 text-sm sm:text-base">
+        <div className="text-center mb-8">
+          <h1 className="text-2xl sm:text-3xl font-bold leading-tight mb-4">
+            The Role of User Experience (UX) in Responsive Web Design
+          </h1>
+          <hr className="border-black mx-auto w-1/2" />
+        </div>
+        <p className="text-base sm:text-lg leading-relaxed mb-8">
           User experience (UX) plays a pivotal role in responsive web design by
           ensuring that a website is not only visually appealing but also
           functional and easy to navigate across various devices. A strong UX
@@ -72,19 +78,21 @@ function ResponsiveWebsite() {
           engagement, and drive conversions, ultimately contributing to the
           overall success of the online presence.
         </p>
-        <h1 className="text-xl sm:text-2xl font-bold leading-tight my-4">
-          <b>Best Practices for Responsive Web Design</b>
-        </h1>
-        <hr className="border-black" />
-        <div className="pl-4 sm:pl-7">
-          <ul className="list-disc text-sm sm:text-base">
-            <li>Mobile-First Approach</li>
-            <li>Flexible Grid Layouts</li>
-            <li>Media Queries</li>
-            <li>Responsive Images</li>
-            <li>Consistent Navigation</li>
-            <li>Testing Across Devices</li>
-            <li>Optimize Performance</li>
+        <div className="text-center mb-8">
+          <h1 className="text-2xl sm:text-3xl font-bold leading-tight mb-4">
+            Best Practices for Responsive Web Design
+          </h1>
+          <hr className="border-black mx-auto w-1/2" />
+        </div>
+        <div className="pl-4 sm:pl-6 lg:pl-8 mb-8">
+          <ul className="list-disc text-base sm:text-lg leading-relaxed">
+            <li className="mb-2">Mobile-First Approach</li>
+            <li className="mb-2">Flexible Grid Layouts</li>
+            <li className="mb-2">Media Queries</li>
+            <li className="mb-2">Responsive Images</li>
+            <li className="mb-2">Consistent Navigation</li>
+            <li className="mb-2">Testing Across Devices</li>
+            <li className="mb-2">Optimize Performance</li>
           </ul>
         </div>
       </div>

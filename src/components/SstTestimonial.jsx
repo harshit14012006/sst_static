@@ -6,19 +6,19 @@ function SstTestimonial() {
   const testimonials = [
     {
       text: "Our aim to spread all information about Sh.Khatu Shayam Dham among the devotees of Shyam baba is cracked after having a versatile....",
-      author: "Mr. Sanjeev Ratusaria",
+      author: "Sanjeev Ratusaria",
     },
     {
       text: "It’s an absolute pleasure to work with the team. Their quality of work and i recive bussiness from diffrent part of country",
-      author: "Mr. Rakesh Sharma",
+      author: "Rakesh Sharma",
     },
     {
       text: "The website has significantly improved our business. It’s user-friendly, andWithin a few days of launching, it started to give positive response to our business.",
-      author: "Mr. Raj Kamal",
+      author: "Raj Kamal",
     },
     {
       text: "The team’s expertise and dedication were instrumental in meeting our project these are for thire aspects of improving the some an & when requirement arises",
-      author: "Mr. Hari Singh",
+      author: "Hari Singh",
     },
   ];
 

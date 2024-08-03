@@ -8,7 +8,7 @@ function SstAboutUs()
   return (
     <div>
         <NavbarMain/>
-        <img src={aboutUS} style={{width:"1280px",height:"400px"}}/>
+        <img src={aboutUS} className='w-full h-96'/>
     <div className="min-h-screen flex flex-col items-center py-10">
       <div className="max-w-5xl w-full px-4 md:px-8">
         <div className='flex display-center'>
