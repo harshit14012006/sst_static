@@ -12,7 +12,7 @@ function SatyaFooter() {
   }, [pathname]);
 
   return (
-    <footer className="bg-gray-700 text-white">
+    <footer className="bg-gray-800 text-white">
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/4 px-4 mb-6 md:mb-0">
@@ -118,7 +118,7 @@ function SatyaFooter() {
               href="#"
               className="bg-gray-200 hover:bg-gray-300 p-2 rounded text-black flex items-center justify-center"
             >
-              <i className="fas fa-arrow-circle-up mr-2"></i>
+              <i className="fas fa-arrow-circle-up mr-2"></i>   
               Back to top
             </a>
           </p>

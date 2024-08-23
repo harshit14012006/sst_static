@@ -16,8 +16,9 @@ function SstHome() {
       <SliderMain />
       <br/>
       <SstHomeShow/>
-      <SstHomeServices/>
+    
       <SstFramework/>
+      <SstHomeServices/>
       <SstTestimonial/>
       <SatyaFooter/>
     </div>

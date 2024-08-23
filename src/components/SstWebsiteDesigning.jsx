@@ -38,7 +38,7 @@ function SstWebsiteDesigning() {
       </body>
 <br/>
 <div className="grid grid-cols-1 pl-4 md:grid-cols-3 gap-6">
-  <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+  <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-700 dark:border-gray-700">
     <a href="#">
       <img className="rounded-t-lg" style={{width:"100%"}} src={staticwebimg} alt="" />
     </a>
@@ -56,7 +56,7 @@ function SstWebsiteDesigning() {
     </div>
   </div>
 
-  <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+  <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-700 dark:border-gray-700">
     <a href="#">
       <img className="rounded-t-lg" style={{width:"100%"}} src={flashwebimg} alt="" />
     </a>
@@ -74,7 +74,7 @@ function SstWebsiteDesigning() {
     </div>
   </div>
 
-  <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+  <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-700 dark:border-gray-700">
     <a href="#">
       <img className="rounded-t-lg" style={{width:"100%"}} src={dynamicwebimg} alt="" />
     </a>

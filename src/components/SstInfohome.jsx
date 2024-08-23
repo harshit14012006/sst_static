@@ -25,7 +25,7 @@ function SstInfohome() {
           {/* <img src={latestoffers} alt="Latest Offers" className="w-full h-auto rounded-lg shadow-md" /> */}
           
           <div className="relative mt-4 bg-white border border-gray-200 rounded-lg overflow-hidden shadow-lg">
-            <div className="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 text-white text-lg font-semibold p-4">
+            <div className="absolute inset-0 flex items-center justify-center bg-gray-700 bg-opacity-50 text-white text-lg font-semibold p-4">
               Latest Offers
             </div>
             <marquee
